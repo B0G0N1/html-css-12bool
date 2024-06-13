@@ -1,5 +1,41 @@
+/* Reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Layout principale */
+.container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* .content {
+    background-color: rgba(255, 0, 0, 0.485);
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    width: 100%;
+} */
+
+[class*='col-'] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #006cfa;
+    color: white;
+    border: 1px solid white;
 }
